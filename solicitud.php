@@ -16,27 +16,29 @@ $db = $utils->getDB();
 
 $id = $utils->cleanInput($_GET['id']);
 
+$db->where('id', $id);
+
+$solicitud = $db->get('solicitud');
+$solicitud = $solicitud[0];
+
 if(isset($_GET['action'])) {
     $action = $utils->cleanInput($_GET['action']);
 
     switch ($action) {
         case 'authorize':
-            $db->where('id', $id);
-            $status = $db->update('solicitud', array(
-                'status' => 1,
-                'status_claim' => 'Admin' // Aqui podrias poner $utils->getCurrentUser(); y obtines el usuario de la sesion o algo
-            ));
-            if(!$status) {
-                $utils->addError('No se pudo actualizar el estado de la solicitud. Intentelo mas tarde.');
+            if(!$solicitud['status']) {
+                $db->where('id', $id);
+                $status = $db->update('solicitud', array(
+                    'status' => 1,
+                    'status_claim' => 'Admin' // Aqui podrias poner $utils->getCurrentUser(); y obtines el usuario de la sesion o algo
+                ));
+                if (!$status) {
+                    $utils->addError('No se pudo actualizar el estado de la solicitud. Intentelo mas tarde.');
+                }
             }
             break;
     }
 }
-
-$db->where('id', $id);
-
-$solicitud = $db->get('solicitud');
-$solicitud = $solicitud[0];
 
 $utils->showErrors();
 ?>
