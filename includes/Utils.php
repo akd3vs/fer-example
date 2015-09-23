@@ -16,7 +16,7 @@ class Utils
     public function __construct()
     {
         /** @var array $db */
-        require_once 'config.php';
+        include_once 'config.php';
         require_once 'PHP-MySQLi-Database-Class-master/MysqliDb.php';
 
         new MysqliDb ($db);
