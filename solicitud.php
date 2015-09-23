@@ -34,6 +34,11 @@ if(isset($_GET['action'])) {
                 ));
                 if (!$status) {
                     $utils->addError('No se pudo actualizar el estado de la solicitud. Intentelo mas tarde.');
+                } else {
+                    $db->where('id', $id);
+
+                    $solicitud = $db->get('solicitud');
+                    $solicitud = $solicitud[0];
                 }
             }
             break;

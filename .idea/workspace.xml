@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b433ab8-6aa7-4caf-a859-058561b9c1c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solicitud.php" afterPath="$PROJECT_DIR$/solicitud.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fergay-ejemplo-tabla-administrativa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,14 +39,14 @@
       <file leaf-file-name="solicitud.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solicitud.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80985916">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.9049296">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1443036437800" expanded="true" signature="997:1021" placeholder="..." />
-                <marker date="1443036437800" expanded="true" signature="1039:1066" placeholder="..." />
-                <marker date="1443036437800" expanded="true" signature="1086:1115" placeholder="..." />
-                <marker date="1443036437800" expanded="true" signature="1135:1165" placeholder="..." />
+                <marker date="1443036562520" expanded="true" signature="1170:1194" placeholder="..." />
+                <marker date="1443036562520" expanded="true" signature="1212:1239" placeholder="..." />
+                <marker date="1443036562520" expanded="true" signature="1259:1288" placeholder="..." />
+                <marker date="1443036562520" expanded="true" signature="1308:1338" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -325,14 +324,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solicitud.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80985916">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.9049296">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1443036437800" expanded="true" signature="997:1021" placeholder="..." />
-            <marker date="1443036437800" expanded="true" signature="1039:1066" placeholder="..." />
-            <marker date="1443036437800" expanded="true" signature="1086:1115" placeholder="..." />
-            <marker date="1443036437800" expanded="true" signature="1135:1165" placeholder="..." />
+            <marker date="1443036562520" expanded="true" signature="1170:1194" placeholder="..." />
+            <marker date="1443036562520" expanded="true" signature="1212:1239" placeholder="..." />
+            <marker date="1443036562520" expanded="true" signature="1259:1288" placeholder="..." />
+            <marker date="1443036562520" expanded="true" signature="1308:1338" placeholder="..." />
           </folding>
         </state>
       </provider>
