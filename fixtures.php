@@ -15,8 +15,7 @@ require_once 'includes/Utils.php';
 $db = $utils->getDB();
 $db_config = $utils->getDbConfig();
 
-$db->rawQuery("DROP TABLE IF EXISTS {$db_config['db']}");
-
+$db->rawQuery("DROP TABLE IF EXISTS `{$db_config['db']}`.`solicitud`");
 
 $db->rawQuery("
     CREATE TABLE `{$db_config['db']}`.`solicitud`
@@ -60,3 +59,5 @@ foreach($solicitudes as $key => $solicitud) {
         $utils->reportError($db->getLastError());
     }
 }
+
+header('Location: /index.php', true, 302);

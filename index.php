@@ -14,7 +14,15 @@ require_once 'includes/Utils.php';
 
 $db = $utils->getDB();
 
-$entries = $db->get('solicitud');
+try {
+    $entries = $db->get('solicitud');
+} catch (\Exception $e) {
+    $entries = [];
+}
+
+if(empty($entries)) {
+    echo '<p>No hay datos en la base de datos, ingresa a <a href="/fixtures.php">Fixtures</a> para ingresar datos de prueba. No te olvides de configurar includes/config.php</p>';
+}
 ?>
 
 <table>
@@ -33,7 +41,7 @@ $entries = $db->get('solicitud');
             <td><?= $entry['id']; ?></td>
             <td><?= $entry['date']; ?></td>
             <td><?= $entry['user']; ?></td>
-            <td><a href="/solicitud?id=<?= $entry['id']; ?>"</td>
+            <td><a href="/solicitud.php?id=<?= $entry['id']; ?>">Ver</a></td>
             <td><?= ($entry['status']) ? 'Autorizado por: ' . $entry['status_claim'] : 'Pendiente'; ?></td>
         </tr>
         <?php endforeach; ?>

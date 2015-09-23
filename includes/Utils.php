@@ -11,6 +11,7 @@ class Utils
     /** @var MysqliDb  */
     protected $db_instance;
     private $db_config;
+    protected $errors = array();
 
     public function __construct()
     {
@@ -44,6 +45,27 @@ class Utils
             <p>Hubo un error al insertar una entrada a la base de datos:</p>
             <span>$error</span>
         ";
+    }
+
+    public function cleanInput($variable)
+    {
+        $variable = htmlentities(strip_tags($this->getDB()->escape(trim($variable))));
+        return $variable;
+    }
+
+    public function addError($string)
+    {
+        $this->errors[] = $string;
+        return $this;
+    }
+
+    public function showErrors()
+    {
+        if(!empty($this->errors)) {
+            foreach($this->errors as $error) {
+                $this->reportError($error);
+            }
+        }
     }
 }
 
