@@ -24,7 +24,7 @@ if(isset($_GET['action'])) {
             $db->where('id', $id);
             $status = $db->update('solicitud', array(
                 'status' => 1,
-                'scatus_claim' => 'Admin' // Aqui podrias poner $utils->getCurrentUser(); y obtines el usuario de la sesion o algo
+                'status_claim' => 'Admin' // Aqui podrias poner $utils->getCurrentUser(); y obtines el usuario de la sesion o algo
             ));
             if(!$status) {
                 $utils->addError('No se pudo actualizar el estado de la solicitud. Intentelo mas tarde.');
