@@ -58,5 +58,5 @@ $utils->showErrors();
     Usuario: <?= $solicitud['user']; ?>
 </p>
 <p>
-    Estatus: <?= ($solicitud['status']) ? 'Autorizado por: ' . $solicitud['status_claim'] : "<a href=\"/solicitud.php?id={$solicitud['id']}&action=authorize\">Da click aqu&iacute; para autorizar</a>"; ?>
+    Estatus: <?= ($solicitud['status']) ? 'Autorizado por: ' . $solicitud['status_claim'] : "<a href=\"solicitud.php?id={$solicitud['id']}&action=authorize\">Da click aqu&iacute; para autorizar</a>"; ?>
 </p>

@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b433ab8-6aa7-4caf-a859-058561b9c1c1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixtures.php" afterPath="$PROJECT_DIR$/fixtures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/solicitud.php" afterPath="$PROJECT_DIR$/solicitud.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fergay-ejemplo-tabla-administrativa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +30,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.666667">
-              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+            <state vertical-scroll-proportion="-5.037037">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
               </folding>
@@ -36,17 +39,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="solicitud.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="solicitud.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/solicitud.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9049296">
-              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+            <state vertical-scroll-proportion="-13.703704">
+              <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1443036562520" expanded="true" signature="1170:1194" placeholder="..." />
-                <marker date="1443036562520" expanded="true" signature="1212:1239" placeholder="..." />
-                <marker date="1443036562520" expanded="true" signature="1259:1288" placeholder="..." />
-                <marker date="1443036562520" expanded="true" signature="1308:1338" placeholder="..." />
+                <marker date="1443038601728" expanded="true" signature="1170:1194" placeholder="..." />
+                <marker date="1443038601728" expanded="true" signature="1212:1239" placeholder="..." />
+                <marker date="1443038601728" expanded="true" signature="1259:1288" placeholder="..." />
+                <marker date="1443038601728" expanded="true" signature="1308:1338" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -56,21 +59,21 @@
         <entry file="file://$PROJECT_DIR$/fixtures.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-18.407408">
-              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+              <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
-                <marker date="1443035941874" expanded="true" signature="231:252" placeholder="DROP TABLE $..." />
-                <marker date="1443035941874" expanded="true" signature="231:284" placeholder="DROP TABLE {..." />
+                <marker date="1443038608040" expanded="true" signature="231:252" placeholder="DROP TABLE $..." />
+                <marker date="1443038608040" expanded="true" signature="231:284" placeholder="DROP TABLE {..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Utils.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/Utils.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.037037">
-              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.49295774">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -79,8 +82,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
               </folding>
@@ -99,8 +102,8 @@
         <option value="$PROJECT_DIR$/includes/config.php" />
         <option value="$PROJECT_DIR$/includes/Utils.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/fixtures.php" />
         <option value="$PROJECT_DIR$/solicitud.php" />
+        <option value="$PROJECT_DIR$/fixtures.php" />
       </list>
     </option>
   </component>
@@ -264,16 +267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/PHP-MySQLi-Database-Class-master/MysqliDb.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2940141">
@@ -292,30 +285,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.407408">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-          <folding>
-            <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1443035941874" expanded="true" signature="231:252" placeholder="DROP TABLE $..." />
-            <marker date="1443035941874" expanded="true" signature="231:284" placeholder="DROP TABLE {..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/Utils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.037037">
-          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.666667">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state vertical-scroll-proportion="-5.037037">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
           </folding>
@@ -324,15 +297,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solicitud.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9049296">
-          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        <state vertical-scroll-proportion="-13.703704">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
-            <marker date="1443036562520" expanded="true" signature="1170:1194" placeholder="..." />
-            <marker date="1443036562520" expanded="true" signature="1212:1239" placeholder="..." />
-            <marker date="1443036562520" expanded="true" signature="1259:1288" placeholder="..." />
-            <marker date="1443036562520" expanded="true" signature="1308:1338" placeholder="..." />
+            <marker date="1443038601728" expanded="true" signature="1170:1194" placeholder="..." />
+            <marker date="1443038601728" expanded="true" signature="1212:1239" placeholder="..." />
+            <marker date="1443038601728" expanded="true" signature="1259:1288" placeholder="..." />
+            <marker date="1443038601728" expanded="true" signature="1308:1338" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.407408">
+          <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+            <marker date="1443038608040" expanded="true" signature="231:252" placeholder="DROP TABLE $..." />
+            <marker date="1443038608040" expanded="true" signature="231:284" placeholder="DROP TABLE {..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#88#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/Utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49295774">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

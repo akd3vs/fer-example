@@ -21,7 +21,7 @@ try {
 }
 
 if(empty($entries)) {
-    echo '<p>No hay datos en la base de datos, ingresa a <a href="/fixtures.php">Fixtures</a> para ingresar datos de prueba. No te olvides de configurar includes/config.php</p>';
+    echo '<p>No hay datos en la base de datos, ingresa a <a href="fixtures.php">Fixtures</a> para ingresar datos de prueba. No te olvides de configurar includes/config.php</p>';
 }
 ?>
 
@@ -41,7 +41,7 @@ if(empty($entries)) {
             <td><?= $entry['id']; ?></td>
             <td><?= $entry['date']; ?></td>
             <td><?= $entry['user']; ?></td>
-            <td><a href="/solicitud.php?id=<?= $entry['id']; ?>">Ver</a></td>
+            <td><a href="solicitud.php?id=<?= $entry['id']; ?>">Ver</a></td>
             <td><?= ($entry['status']) ? 'Autorizado por: ' . $entry['status_claim'] : 'Pendiente'; ?></td>
         </tr>
         <?php endforeach; ?>

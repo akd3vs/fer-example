@@ -60,4 +60,4 @@ foreach($solicitudes as $key => $solicitud) {
     }
 }
 
-header('Location: /index.php', true, 302);
+header('Location: index.php', true, 302);
